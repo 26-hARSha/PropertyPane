@@ -1,0 +1,40 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.propertyPane {
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+
+.welcome {
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 10px;
+border-color: rgb(202, 202, 240);
+color:white ;
+background-image: url("https://www.desktopbackground.org/download/2304x864/2014/08/17/810694_light-blue-background-images-wallpapers-high-definition_2560x1600_h.jpg");
+background-color: #cccccc;
+}
+
+.welcomeImage {
+  width: 100%;
+ 
+}
+
+.links {
+  a {
+    text-decoration: none;
+    color: "[theme:link, default:#03787c]";
+    color: var(--link); // note: CSS Custom Properties support is limited to modern browsers only
+
+    &:hover {
+      text-decoration: underline;
+      color: "[theme:linkHovered, default: #014446]";
+      color: var(--linkHovered); // note: CSS Custom Properties support is limited to modern browsers only
+    }
+  }
+}
